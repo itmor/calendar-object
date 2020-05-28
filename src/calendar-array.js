@@ -1,10 +1,10 @@
 class CalendarArray {
-	
+
 }
 
 // export globals
 if (typeof module !== 'undefined') {
-  module.exports = CalendarArray;
+  module.exports = new CalendarArray();
 } else {
-  window.CalendarArray = CalendarArray;
+  window.CalendarArray = new CalendarArray();
 }

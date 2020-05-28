@@ -1,0 +1,23 @@
+{
+  "name": "calendar-array",
+  "version": "1.0.0",
+  "description": " library for receiving a calendar in the form of a multidimensional array",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itmor/calendar-array.git"
+  },
+  "keywords": [
+    "calendar",
+    "calendar-js"
+  ],
+  "author": "itmor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itmor/calendar-array/issues"
+  },
+  "homepage": "https://github.com/itmor/calendar-array#readme"
+}

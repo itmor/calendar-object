@@ -47,16 +47,16 @@ Include the library in a file
 ```
 ******
 ### Description of public methods
-#### getCalendar(Array<Number>.....);
+### getCalendar(Array<Number>.....);
 If you want to get the whole year with all months, just pass in an array whose first element will be a year of a numeric type.
-- .getCalendar([2019]);
+- #### .getCalendar([2019]);
 
 If you want to receive only certain months, indicate their index after the year.
-- .getCalendar([2019, 1, 2, 5, 12]);
+- #### .getCalendar([2019, 1, 2, 5, 12]);
 
 
 You can get several years at once by simply passing arrays as many times as necessary, as a result you get an object that will be several years old.
-- .getCalendar([2007], [2020], [2090, 4, 6, 7]);
+- #### .getCalendar([2007], [2020], [2090, 4, 6, 7]);
 
 ### DEV
 run the command in the root to load the dependencies

@@ -5,25 +5,21 @@ class CalendarArray {
     }
   }
 
-  /*
-    Validates getCalendar arguments.
-    - sample correct arguments
-    [[2020, 3], [2012], [2007]]
-  */
   #isValidDateArg(dates) {
+    // Sample correct arguments [[2020, 3], [2012], [2007]]
     if (dates.length > 0) {
       for (let date of dates) {
 
         if (!Array.isArray(date)) {
-          throw new TypeError(`type: ${typeof date} <- the argument is of the wrong type, array expected`);
+          throw new TypeError(`Invalid type, array expected, ${typeof date} passed`);
 
         } else if (date.length === 0) {
-          throw new Error(`length: ${date.length} <- array is empty`);
+          throw new Error(`Array is empty`);
         } else {
 
           for (let value of date) {
             if (typeof value !== 'number') {
-              throw new TypeError(`type: ${typeof value} <- invalid date type in this array of dates, expected number`);
+              throw new TypeError(`Invalid type, number expected, ${typeof value} passed`);
             }
           }
         }

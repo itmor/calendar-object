@@ -47,7 +47,7 @@ Include the library in a file
 ```
 ******
 ### Description of public methods
-##### getCalendar(Array<Number>.....);
+#### getCalendar(Array<Number>.....);
 If you want to get the whole year with all months, just pass in an array whose first element will be a year of a numeric type.
 - .getCalendar([2019]);
 

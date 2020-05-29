@@ -21,7 +21,7 @@ const calendar = calendarObject.getCalendar([2019], [2020, 10, 11, 12]);
 console.log(calendar);
 ```
 ###### After which you will receive an object of such a plan
-![](https://i.ibb.co/YTPb7Fq/image.png)
+![](https://i.ibb.co/rsbm0CD/33.png)
 ******
 ```javascript
 calendar[2020][12][1] = {tasks: ['buy vodka', 'never write javascript again']}

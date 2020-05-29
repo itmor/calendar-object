@@ -1,5 +1,5 @@
 # 📆 calendar-object 
-![](https://img.shields.io/badge/licence-MIT-ff69b4) ![](https://img.shields.io/badge/version-v1.0-red)
+![](https://img.shields.io/badge/licence-MIT-ff69b4) ![](https://img.shields.io/badge/version-v1.0.1-red)
 #### Library for receiving a calendar in the form of a multidimensional array
 
   - ######  support browser and node-js

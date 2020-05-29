@@ -28,7 +28,7 @@ calendar[2020][12][1] = {tasks: ['buy vodka', 'never write javascript again']}
 console.log(calendar);
 ```
 ###### You can put anything you want on selected days
-![](https://i.ibb.co/PQMt1Cg/23.png)
+![](https://i.ibb.co/wNwSk8m/22.png)
 ### Installation for browser
 ```
 git clone https://github.com/itmor/calendar-object.git

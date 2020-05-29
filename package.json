@@ -1,6 +1,6 @@
 {
   "name": "calendar-object",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Library for receiving a calendar in the form of a multidimensional array",
   "main": "build/calendar-object.min.js",
   "scripts": {},

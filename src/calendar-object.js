@@ -50,7 +50,7 @@ class CalendarObject {
       const mounthDays = this.#getMonthDays(yearNum, Number(mounth));
 
       for (let daysCount = 0; daysCount < mounthDays; daysCount++) {
-        calendarArr[mounth][daysCount + 1] = {};
+        calendarArr[mounth][daysCount + 1] = null;
       }
     });
     
